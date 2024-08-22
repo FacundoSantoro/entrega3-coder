@@ -1,0 +1,52 @@
+.seccion-2-registro{
+    height: 33.125rem;
+    padding-top: 1.5625rem;
+    h2{
+        text-align: center;
+        text-decoration: underline;
+        margin-bottom: 1.25rem;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.875rem;
+        div{
+            display: flex;
+            flex-direction: column;
+            label{
+                font-size: 1.5625rem;
+                text-align: center;
+            }
+            input{
+                text-align: center;
+                background-color: #F0EFE7;
+                height: 3.125rem;
+                width: 43.75rem;
+            }
+        }
+    }
+    .boton-inicio-sesion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 3.125rem;
+        .boton-naranja{
+            background-color: #FC7300;
+            height: 3.125rem;
+            width: 43.75rem;
+        }
+    }
+    .botones-aparte{
+        display: flex;
+        justify-content: center;
+        gap: 1.25rem;
+        padding-right: 26.875rem;
+        .boton-aparte{
+            color: #FC7300;
+            text-decoration: underline;
+            border: none;
+            background-color: #BFDB38;
+        }
+    }
+}

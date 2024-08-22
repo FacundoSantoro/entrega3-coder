@@ -1,0 +1,45 @@
+.seccion-2-sobrenosotros{
+    text-align: center;
+    background-color: #BFDB38;
+    color: black;
+    height: 20vh;
+    h2{
+        text-align: center;
+        text-decoration: underline;
+        padding: 1.25rem 0;
+    }
+    p{
+        font-size: 1.25rem;
+    }
+}
+.seccion-3-sobrenosotros{
+    text-align: justify;
+    background-color: #00425A;
+    color: #F0EFE7;
+    height: 60vh; 
+    border: .125rem solid black;
+    h2{
+        text-decoration: underline;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        font-size: 1.25rem;
+    }
+    .div-valores-empresa{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        div{
+            height: 40.68vh;
+            border: .125rem solid black;
+            border-bottom: none;
+            background-color: #BFDB38;
+            h2{
+                padding: .625rem;
+                color: black;
+            }
+        }
+    }
+}
+

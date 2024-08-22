@@ -1,0 +1,42 @@
+.footer-registro{
+    background-color: #00425A;
+    color: #F0EFE7;
+    height: 21.875rem;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.875rem;
+    .ubicacion-registro{
+        padding-top: .9375rem;
+        h4{
+            text-align: center;
+        }
+        div{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            img{
+                height: 2.1875rem;
+                width: 2.1875rem;
+                object-fit: contain;
+            }
+        }
+    }
+    .contacto-registro{
+        @extend .ubicacion-registro
+    }
+    .seguinos-registro{
+        padding-top: .9375rem;
+        h4{
+            text-align: center;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            a{
+                text-decoration: none;
+                color: #F0EFE7;
+            }
+        }
+    }
+}

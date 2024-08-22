@@ -1,0 +1,106 @@
+@media(max-width: 768px){
+    .seccion-1-inicio{
+        background-size: contain;
+            .clase-iso{
+                height: 9.375rem;
+            }
+            .clase-logo{
+                width: 28.125rem;
+            }
+    }
+    .seccion-2-inicio{
+        div{
+            p{
+                font-size: 1.0313rem;
+                padding: .3125rem;
+            }
+        }
+        .div-valores-empresa{
+            div{
+                padding: .1875rem;
+                h2{
+                    font-size: 1.3125rem;
+                }
+            }
+        }
+    } 
+    .seccion-3-inicio{
+        height: 25rem;
+        h2{
+            padding: 1.25rem;
+        }
+        .carrusel{
+            gap: 3.125rem;
+            h3{
+                font-size: 1.25rem;
+            }
+            article{
+                a{
+                    height: 10.625rem;
+                    width: 10.625rem;
+                    img{
+                        height: 10.625rem;
+                        width: 10.625rem;
+                    }
+                }
+            }
+        }
+    }
+    .seccion-4-inicio{
+        height: 25rem;
+        h2{
+            padding: 1.875rem;
+        }
+        .div-instagram{
+            gap: 1.5625rem;
+            padding-top: 1.875rem;
+            div{
+                object-fit: cover;
+                height: 15.625rem;
+                width: 15.625rem;
+                a{
+                    height: 15.625rem;
+                    width: 15.625rem;
+                    img{
+                        object-fit: cover;
+                        height: 15.625rem;
+                        width: 15.625rem;
+                    }
+                }
+            }
+        }
+        .cambio-768{
+            display: none;
+        }
+    }
+}
+@media(max-width: 768px){
+    .seccion-4-inicio{
+    height: 25rem;
+    h2{
+        padding: 1.25rem;
+    }
+    .div-instagram{
+        gap: 1.5625rem;
+        padding-top: 3.125rem;
+        div{
+            object-fit: cover;
+            height: 12.5rem;
+            width: 12.5rem;
+            a{
+                height: 12.5rem;
+                width: 12.5rem;
+                img{
+                    object-fit: cover;
+                    height: 12.5rem;
+                    width: 12.5rem;
+                }
+            }
+        }
+        }
+    }
+    .footer-inicio{
+        font-size: 1.0625rem;
+    }
+}
+

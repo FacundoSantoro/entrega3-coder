@@ -1,0 +1,138 @@
+@media(max-width: 375px){
+    .seccion-1-inicio{
+        background-size: cover;
+        padding-left: .625rem;
+            .clase-iso{
+                height: 5.625rem;
+            }
+            .clase-logo{
+                width: 15.625rem;
+            }
+    }
+    .seccion-2-inicio{
+        height: 6.875rem;
+        div{
+            p{
+                font-size: .7813rem;
+                padding: .125rem;
+                height: 6.875rem;
+            }
+        }
+        .div-valores-empresa{
+            display: none;
+        }
+    } 
+    .seccion-3-inicio{
+        height: 17.5rem;
+        h2{
+            padding: .625rem;
+        }
+        .carrusel{
+            gap: .9375rem;
+            padding-top: 2.8125rem;
+            h3{
+                font-size: .8438rem;
+            }
+            article{
+                a{
+                    height: 6.25rem;
+                    width: 6.25rem;
+                    img{
+                        height: 6.25rem;
+                        width: 6.25rem;
+                    }
+                }
+            }
+        }
+    }
+    .seccion-4-inicio{
+        height: 15.625rem;
+        h2{
+            padding: .9375rem;
+        }
+        .div-instagram{
+            gap: .9375rem;
+            padding-top: 2.1875rem;
+            div{
+                object-fit: cover;
+                height: 6.875rem;
+                width: 6.875rem;
+                a{
+                    height: 6.875rem;
+                    width: 6.875rem;
+                    img{
+                        object-fit: cover;
+                        height: 6.875rem;
+                        width: 6.875rem;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width: 375px){
+    .footer-inicio{
+    background-color: #00425A;
+    color: #F0EFE7;
+    height: 12.5rem;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-around;
+    .ubicacion{
+        padding-top: .3125rem;
+        h4{
+            font-size: 1.125rem;
+            text-align: center;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            text-align:left;
+            align-items: center;
+            img{
+                height: 1.5625rem;
+                width: 1.5625rem;
+                object-fit: contain;
+            }
+        }
+    }
+    .contacto{
+        padding-top: .3125rem;
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+                width: 1.5625rem;
+                height: 1.5625rem;
+                object-fit: contain;
+            }
+        }
+        h4{
+            text-align: center;
+            font-size: 1.125rem;
+        }
+    }
+    .seguinos{
+        padding-top: .3125rem;
+        h4{
+            text-align: center;
+            font-size: 1.125rem;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            a{
+                text-decoration: none;
+                color: #F0EFE7;
+                img{
+                    width: 1.5625rem;
+                    height: 1.5625rem;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}
+}

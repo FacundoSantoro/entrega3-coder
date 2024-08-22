@@ -1,0 +1,123 @@
+@media(max-width:1440px){
+.seccion-1-inicio{
+    background-image: url(../assets/img/logotipo.png);
+    background-size: cover;
+    background-color: $color1;
+    background-position: 60%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 3.125rem;
+    .clase-logo{
+        object-fit: contain;
+        width: 56.25rem;
+    }
+    .clase-iso{
+        object-fit: contain;
+        height: 18.75rem;
+        padding: .625rem;
+    }
+}
+
+
+.seccion-2-inicio{
+    @include flex(row,nowrap);
+    background-color: $color1;
+    justify-content: space-between;
+    height: 8.125rem;
+    div{
+        p{
+            text-align: justify;
+            border: .125rem solid $color-texto1;
+            padding: .875rem;
+            font-size: 1.375rem;
+            background-color: $color3;
+            color: $color-texto1;
+            height: 8.125rem;
+            text-indent: .625rem;
+        }
+    }
+    .div-valores-empresa{
+        text-align: right;
+        color: $color-texto1;
+        display: flex;
+        flex-direction: column;
+        height: 8.125rem;
+        div{
+            text-align: center;    
+            background-color: $color3;
+            border: .125rem solid $color-texto1;
+            h2{
+                font-size: 1.625rem;
+            }
+        }
+    }
+}
+
+.seccion-3-inicio{
+    background-color: $color1;
+    height: 30.0625rem;
+    h2{
+        text-align: center;
+        text-decoration: underline;
+        padding: 2.5rem;
+        background-color: $color2;
+        color: $color-texto1;
+    }
+    .carrusel{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 7.5rem;
+        padding-top: 3.125rem;
+        h3{
+            color: $color-texto1;
+            font-size: 1.5625rem;
+            text-align: center;
+        }
+        article{
+            a{
+                height: 12.5rem;
+                width: 12.5rem;
+                img{
+                    height: 12.5rem;
+                    width: 12.5rem;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}
+    .seccion-4-inicio{
+        background-color: $color1;
+        height: 36.25rem;
+        text-align: center;
+        h2{
+            padding: 2.5rem;
+            background-color: $color2;
+            color: $color-texto1;
+            text-decoration: underline;
+        }
+        .div-instagram{
+            @include flex(row,nowrap);
+            justify-content: center;
+            gap: 1.5625rem;
+            padding-top: 4.375rem;
+            div{
+                object-fit: cover;
+                height: 18.75rem;
+                width: 18.75rem;
+                a{
+                    height: 18.75rem;
+                    width: 18.75rem;
+                    img{
+                        object-fit: cover;
+                        height: 18.75rem;
+                        width: 18.75rem;
+                    }
+                }
+            }
+        }
+    }
+}

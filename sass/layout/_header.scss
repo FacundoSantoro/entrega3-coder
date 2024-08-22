@@ -1,0 +1,39 @@
+.iso-home{
+    height: 5rem;
+}
+.color-nav{
+    background-color: #00425A;
+    color: #F0EFE7;
+}
+.color-nav2{
+    color: #F0EFE7;
+    font-size: .9375rem;
+}
+.boton-buscar{
+    color: #F0EFE7;
+    border-color: #F0EFE7;
+}
+header{
+    nav{
+        div{
+            .link{
+                position: relative;
+            }
+            .link:after{ 
+                content: "";
+                width: 0; 
+                height: 2px;
+                background-color: rgb(255, 255, 255);
+                position: absolute;
+                bottom: 0; 
+                right: 50%;
+                transition: all .5s; 
+                will-change: width;
+            }
+            .link:hover:after{
+                width: 100%; 
+                right: 0;
+        }
+    }
+}
+}

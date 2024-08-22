@@ -1,0 +1,76 @@
+@media(max-width: 1024px){
+    .seccion-1-inicio{
+        background-size: contain;
+            .clase-iso{
+                height: 12.5rem;
+            }
+            .clase-logo{
+                width: 37.5rem;
+            }
+    }
+    .seccion-2-inicio{
+        div{
+            p{
+                font-size: 1.1875rem;
+                padding: .5rem;
+            }
+        }
+        .div-valores-empresa{
+            div{
+                padding: .125rem;
+                h2{
+                    font-size: 1.4187rem;
+                }
+            }
+        }
+    } 
+    .seccion-3-inicio{
+        h2{
+            padding: 1.875rem;
+        }
+        .carrusel{
+            gap: 6.25rem;
+            h3{
+                font-size: 1.25rem;
+            }
+            article{
+                a{
+                    height: 12.5rem;
+                    width: 12.5rem;
+                    img{
+                        height: 12.5rem;
+                        width: 12.5rem;
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+    }
+    .seccion-4-inicio{
+        height: 25rem;
+        h2{
+            padding: 1.875rem;
+        }
+        .div-instagram{
+            gap: 1.5625rem;
+            padding-top: 1.875rem;
+            div{
+                object-fit: cover;
+                height: 15.625rem;
+                width: 15.625rem;
+                a{
+                    height: 15.625rem;
+                    width: 15.625rem;
+                    img{
+                        object-fit: cover;
+                        height: 15.625rem;
+                        width: 15.625rem;
+                    }
+                }
+            }
+        }
+        .cambio-768{
+            display: none;
+        }
+    }
+}

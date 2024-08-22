@@ -1,0 +1,34 @@
+/**
+1ero utilities
+2do base
+3ro layout
+4to components
+5to mediaquery
+**/
+@import "./utilities/funciones";
+@import "./utilities/maps";
+@import "./utilities/mixins";
+@import "./utilities/variables";
+
+@import "./base/reset";
+
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/footer-index";
+@import "./layout/main-contacto";
+@import "./layout/footer-contacto";
+@import "./layout/main-sobrenosotros";
+@import "./layout/footer-sobrenosotros";
+@import "./layout/main-tienda";
+@import "./layout/footer-tienda";
+@import "./layout/main-registro";
+@import "./layout/footer-registro";
+
+@import "./layout/media/media1024";
+@import "./layout/media/media768";
+@import "./layout/media/media425";
+@import "./layout/media/media375";
+@import "./layout/media/media320";
+@import "./layout/media/mediacelu-registro";
+@import "./layout/media/media-contacto";
+

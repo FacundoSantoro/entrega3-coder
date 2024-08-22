@@ -1,0 +1,53 @@
+.footer-inicio{
+    background-color: $color2;
+    color: $color-texto2;
+    height: 11.25rem;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: space-around;
+    .ubicacion{
+        padding-top: .9375rem;
+        h4{
+            text-align: center;
+        }
+        div{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            img{
+                height: 2.1875rem;
+                width: 2.1875rem;
+                object-fit: contain;
+            }
+        }
+    }
+    .contacto{
+        padding-top: .9375rem;
+        div{
+            display: flex;
+            flex-direction: row;
+            img{
+                width: 2.1875rem;
+                height: 2.1875rem;
+                object-fit: contain;
+            }
+        }
+        h4{
+            text-align: center;
+        }
+    }
+    .seguinos{
+        padding-top: .9375rem;
+        h4{
+            text-align: center;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            a{
+                text-decoration: none;
+                color: $color-texto2;
+            }
+        }
+    }
+}

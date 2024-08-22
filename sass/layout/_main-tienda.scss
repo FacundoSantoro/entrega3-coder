@@ -1,0 +1,70 @@
+main{
+    background-color: #BFDB38;
+    .seccion-2-tienda{
+        background-color: #BFDB38;
+        width: 18.75rem;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 20vh;
+        width: 100%;
+        padding-top: .9375rem;
+        div{
+            height: 20vh;
+            div{
+                display: flex;
+                gap: .625rem;
+                p{
+                    font-size: 1.5625rem;
+                }
+            }
+            h2{
+                padding-top: .625rem;
+                padding-bottom: .625rem;
+                text-decoration: underline;
+            }
+        }
+        aside{
+            button{
+                background-color: #00425A;
+                color: #F0EFE7;
+                height: 20vh;
+                width: 31.25rem;
+                font-size: 1.5625rem;
+            }
+        }
+    }
+    .seccion-3-tienda{
+        text-align: center;
+        background-color: #BFDB38;
+        height: 55vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 1.25rem;
+        article{
+            border: .125rem solid black;
+            margin: .625rem;
+            height: 28.75rem;
+            h3{
+                padding-top: .625rem;
+            }
+            div{
+                img{
+                    height: 15.625rem;
+                    width: 15.625rem;
+                    object-fit: contain;
+                    margin: .1875rem;
+                }
+            }
+            button{
+                background-color: #00425A;
+                height: 6.875rem;
+                width: 100%;
+                font-size: 1.25rem;
+                color: #F0EFE7;
+            }
+        }
+    }
+}
