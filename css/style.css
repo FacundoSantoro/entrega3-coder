@@ -43,110 +43,107 @@ header nav div .link:hover:after {
   width: 100%;
   right: 0; }
 
-@media (max-width: 1440px) {
-  .seccion-1-inicio {
-    background-image: url(../assets/img/logotipo.png);
-    background-size: cover;
-    background-color: #BFDB38;
-    background-position: 60%;
-    background-repeat: no-repeat;
+.seccion-1-inicio {
+  background-image: url(../assets/img/logotipo.png);
+  background-size: cover;
+  background-color: #BFDB38;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .seccion-1-inicio .clase-logo {
+    object-fit: contain;
+    width: 56.25rem; }
+  .seccion-1-inicio .clase-iso {
+    object-fit: contain;
+    height: 18.75rem;
+    padding: .625rem; }
+
+.seccion-2-inicio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: #BFDB38;
+  justify-content: space-between;
+  height: 8.125rem; }
+  .seccion-2-inicio div p {
+    text-align: justify;
+    border: 0.125rem solid black;
+    padding: .875rem;
+    font-size: 1.375rem;
+    background-color: #FC7300;
+    color: black;
+    height: 8.125rem;
+    text-indent: .625rem; }
+  .seccion-2-inicio .div-valores-empresa {
+    text-align: right;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    height: 8.125rem; }
+    .seccion-2-inicio .div-valores-empresa div {
+      text-align: center;
+      background-color: #FC7300;
+      border: 0.125rem solid black; }
+      .seccion-2-inicio .div-valores-empresa div h2 {
+        font-size: 1.625rem; }
+
+.seccion-3-inicio {
+  background-color: #BFDB38; }
+  .seccion-3-inicio h2 {
+    text-align: center;
+    text-decoration: underline;
+    padding: 2.5rem;
+    background-color: #00425A;
+    color: black; }
+  .seccion-3-inicio .carrusel {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    padding-left: 3.125rem; }
-    .seccion-1-inicio .clase-logo {
-      object-fit: contain;
-      width: 56.25rem; }
-    .seccion-1-inicio .clase-iso {
-      object-fit: contain;
-      height: 18.75rem;
-      padding: .625rem; }
-  .seccion-2-inicio {
+    justify-content: center;
+    gap: 7.5rem;
+    padding: 3.125rem 0; }
+    .seccion-3-inicio .carrusel h3 {
+      color: black;
+      font-size: 1.5625rem;
+      text-align: center; }
+    .seccion-3-inicio .carrusel article a {
+      height: 12.5rem;
+      width: 12.5rem; }
+      .seccion-3-inicio .carrusel article a img {
+        height: 12.5rem;
+        width: 12.5rem;
+        object-fit: contain; }
+
+.seccion-4-inicio {
+  background-color: #BFDB38;
+  text-align: center; }
+  .seccion-4-inicio h2 {
+    padding: 2.5rem;
+    background-color: #00425A;
+    color: black;
+    text-decoration: underline; }
+  .seccion-4-inicio .div-instagram {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    background-color: #BFDB38;
-    justify-content: space-between;
-    height: 8.125rem; }
-    .seccion-2-inicio div p {
-      text-align: justify;
-      border: 0.125rem solid black;
-      padding: .875rem;
-      font-size: 1.375rem;
-      background-color: #FC7300;
-      color: black;
-      height: 8.125rem;
-      text-indent: .625rem; }
-    .seccion-2-inicio .div-valores-empresa {
-      text-align: right;
-      color: black;
-      display: flex;
-      flex-direction: column;
-      height: 8.125rem; }
-      .seccion-2-inicio .div-valores-empresa div {
-        text-align: center;
-        background-color: #FC7300;
-        border: 0.125rem solid black; }
-        .seccion-2-inicio .div-valores-empresa div h2 {
-          font-size: 1.625rem; }
-  .seccion-3-inicio {
-    background-color: #BFDB38;
-    height: 30.0625rem; }
-    .seccion-3-inicio h2 {
-      text-align: center;
-      text-decoration: underline;
-      padding: 2.5rem;
-      background-color: #00425A;
-      color: black; }
-    .seccion-3-inicio .carrusel {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 7.5rem;
-      padding-top: 3.125rem; }
-      .seccion-3-inicio .carrusel h3 {
-        color: black;
-        font-size: 1.5625rem;
-        text-align: center; }
-      .seccion-3-inicio .carrusel article a {
-        height: 12.5rem;
-        width: 12.5rem; }
-        .seccion-3-inicio .carrusel article a img {
-          height: 12.5rem;
-          width: 12.5rem;
-          object-fit: contain; }
-  .seccion-4-inicio {
-    background-color: #BFDB38;
-    height: 36.25rem;
-    text-align: center; }
-    .seccion-4-inicio h2 {
-      padding: 2.5rem;
-      background-color: #00425A;
-      color: black;
-      text-decoration: underline; }
-    .seccion-4-inicio .div-instagram {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      justify-content: center;
-      gap: 1.5625rem;
-      padding-top: 4.375rem; }
-      .seccion-4-inicio .div-instagram div {
-        object-fit: cover;
+    justify-content: center;
+    gap: 1.5625rem;
+    padding: 3.125rem 0; }
+    .seccion-4-inicio .div-instagram div {
+      object-fit: cover;
+      height: 18.75rem;
+      width: 18.75rem; }
+      .seccion-4-inicio .div-instagram div a {
         height: 18.75rem;
         width: 18.75rem; }
-        .seccion-4-inicio .div-instagram div a {
+        .seccion-4-inicio .div-instagram div a img {
+          object-fit: cover;
           height: 18.75rem;
           width: 18.75rem; }
-          .seccion-4-inicio .div-instagram div a img {
-            object-fit: cover;
-            height: 18.75rem;
-            width: 18.75rem; } }
 
 .footer-inicio {
   background-color: #00425A;
   color: #F0EFE7;
-  height: 11.25rem;
   font-size: 1.25rem;
   display: flex;
   justify-content: space-around; }
@@ -418,13 +415,15 @@ main {
         text-decoration: none;
         color: #F0EFE7; }
 
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
   .seccion-1-inicio {
-    background-size: contain; }
+    background-size: cover;
+    justify-content: center;
+    padding-left: 0%; }
     .seccion-1-inicio .clase-iso {
-      height: 12.5rem; }
+      height: 15.625rem; }
     .seccion-1-inicio .clase-logo {
-      width: 37.5rem; }
+      width: 43.75rem; }
   .seccion-2-inicio div p {
     font-size: 1.1875rem;
     padding: .5rem; }
@@ -445,153 +444,270 @@ main {
         height: 12.5rem;
         width: 12.5rem;
         object-fit: contain; }
-  .seccion-4-inicio {
-    height: 25rem; }
-    .seccion-4-inicio h2 {
-      padding: 1.875rem; }
-    .seccion-4-inicio .div-instagram {
-      gap: 1.5625rem;
-      padding-top: 1.875rem; }
-      .seccion-4-inicio .div-instagram div {
-        object-fit: cover;
+  .seccion-4-inicio h2 {
+    padding: 1.875rem; }
+  .seccion-4-inicio .div-instagram {
+    gap: 1.5625rem;
+    padding: 3.125rem 0; }
+    .seccion-4-inicio .div-instagram div {
+      object-fit: cover;
+      height: 15.625rem;
+      width: 15.625rem; }
+      .seccion-4-inicio .div-instagram div a {
         height: 15.625rem;
         width: 15.625rem; }
-        .seccion-4-inicio .div-instagram div a {
+        .seccion-4-inicio .div-instagram div a img {
+          object-fit: cover;
           height: 15.625rem;
-          width: 15.625rem; }
-          .seccion-4-inicio .div-instagram div a img {
-            object-fit: cover;
-            height: 15.625rem;
-            width: 15.625rem; }
-    .seccion-4-inicio .cambio-768 {
-      display: none; } }
+          width: 15.625rem; } }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   .seccion-1-inicio {
-    background-size: contain; }
+    background-size: cover; }
     .seccion-1-inicio .clase-iso {
-      height: 9.375rem; }
+      height: 12.5rem; }
     .seccion-1-inicio .clase-logo {
-      width: 28.125rem; }
+      width: 34.375rem; }
   .seccion-2-inicio div p {
-    font-size: 1.0313rem;
+    font-size: 1.1563rem;
     padding: .3125rem; }
   .seccion-2-inicio .div-valores-empresa div {
     padding: .1875rem; }
     .seccion-2-inicio .div-valores-empresa div h2 {
       font-size: 1.3125rem; }
-  .seccion-3-inicio {
-    height: 25rem; }
-    .seccion-3-inicio h2 {
-      padding: 1.25rem; }
-    .seccion-3-inicio .carrusel {
-      gap: 3.125rem; }
-      .seccion-3-inicio .carrusel h3 {
-        font-size: 1.25rem; }
-      .seccion-3-inicio .carrusel article a {
+  .seccion-3-inicio h2 {
+    padding: 1.25rem; }
+  .seccion-3-inicio .carrusel {
+    gap: 3.125rem; }
+    .seccion-3-inicio .carrusel h3 {
+      font-size: 1.25rem; }
+    .seccion-3-inicio .carrusel article a {
+      height: 10.625rem;
+      width: 10.625rem; }
+      .seccion-3-inicio .carrusel article a img {
         height: 10.625rem;
         width: 10.625rem; }
-        .seccion-3-inicio .carrusel article a img {
-          height: 10.625rem;
-          width: 10.625rem; }
-  .seccion-4-inicio {
-    height: 25rem; }
-    .seccion-4-inicio h2 {
-      padding: 1.875rem; }
-    .seccion-4-inicio .div-instagram {
-      gap: 1.5625rem;
-      padding-top: 1.875rem; }
-      .seccion-4-inicio .div-instagram div {
-        object-fit: cover;
-        height: 15.625rem;
-        width: 15.625rem; }
-        .seccion-4-inicio .div-instagram div a {
-          height: 15.625rem;
-          width: 15.625rem; }
-          .seccion-4-inicio .div-instagram div a img {
-            object-fit: cover;
-            height: 15.625rem;
-            width: 15.625rem; }
-    .seccion-4-inicio .cambio-768 {
-      display: none; } }
+  .seccion-4-inicio h2 {
+    padding: 1.875rem; }
+  .seccion-4-inicio .div-instagram {
+    gap: 1.5625rem;
+    padding: 3.125rem 0; }
+    .seccion-4-inicio .div-instagram div {
+      object-fit: cover;
+      height: 13.75rem;
+      width: 13.75rem; }
+      .seccion-4-inicio .div-instagram div a {
+        height: 13.75rem;
+        width: 13.75rem; }
+        .seccion-4-inicio .div-instagram div a img {
+          object-fit: cover;
+          height: 13.75rem;
+          width: 13.75rem; } }
 
-@media (max-width: 768px) {
-  .seccion-4-inicio {
-    height: 25rem; }
-    .seccion-4-inicio h2 {
-      padding: 1.25rem; }
-    .seccion-4-inicio .div-instagram {
-      gap: 1.5625rem;
-      padding-top: 3.125rem; }
-      .seccion-4-inicio .div-instagram div {
-        object-fit: cover;
+@media (max-width: 970px) {
+  .seccion-4-inicio h2 {
+    padding: 1.25rem; }
+  .seccion-4-inicio .div-instagram {
+    gap: 1.5625rem;
+    padding: 3.125rem 0; }
+    .seccion-4-inicio .div-instagram div {
+      object-fit: cover;
+      height: 12.5rem;
+      width: 12.5rem; }
+      .seccion-4-inicio .div-instagram div a {
         height: 12.5rem;
         width: 12.5rem; }
-        .seccion-4-inicio .div-instagram div a {
+        .seccion-4-inicio .div-instagram div a img {
+          object-fit: cover;
           height: 12.5rem;
           width: 12.5rem; }
-          .seccion-4-inicio .div-instagram div a img {
-            object-fit: cover;
-            height: 12.5rem;
-            width: 12.5rem; }
   .footer-inicio {
     font-size: 1.0625rem; } }
 
-@media (max-width: 425px) {
+@media (max-width: 880px) {
+  .seccion-1-inicio {
+    background-size: cover; }
+    .seccion-1-inicio .clase-iso {
+      height: 12.5rem; }
+    .seccion-1-inicio .clase-logo {
+      width: 31.25rem; }
+  .seccion-2-inicio div p {
+    font-size: 1.0625rem;
+    padding: .1875rem; }
+  .seccion-4-inicio h2 {
+    padding: 1.25rem; }
+  .seccion-4-inicio .div-instagram {
+    gap: 1.25rem;
+    padding: 3.125rem 0; }
+    .seccion-4-inicio .div-instagram div {
+      object-fit: cover;
+      height: 10.625rem;
+      width: 10.625rem; }
+      .seccion-4-inicio .div-instagram div a {
+        height: 10.625rem;
+        width: 10.625rem; }
+        .seccion-4-inicio .div-instagram div a img {
+          object-fit: cover;
+          height: 10.625rem;
+          width: 10.625rem; } }
+
+@media (max-width: 750px) {
+  .seccion-1-inicio {
+    background-size: cover; }
+    .seccion-1-inicio .clase-iso {
+      height: 10.625rem; }
+    .seccion-1-inicio .clase-logo {
+      width: 25rem; }
+  .seccion-2-inicio div p {
+    font-size: 1.0625rem;
+    padding: .1875rem; }
+  .seccion-3-inicio .carrusel {
+    gap: 2.5rem; }
+    .seccion-3-inicio .carrusel h3 {
+      font-size: 1.25rem; }
+    .seccion-3-inicio .carrusel article a {
+      height: 9.375rem;
+      width: 9.375rem; }
+      .seccion-3-inicio .carrusel article a img {
+        height: 9.375rem;
+        width: 9.375rem; }
+  .seccion-4-inicio h2 {
+    padding: 1.25rem; }
+  .seccion-4-inicio .div-instagram {
+    gap: .75rem;
+    padding: 3.125rem 0; }
+    .seccion-4-inicio .div-instagram div {
+      height: 9.375rem;
+      width: 9.375rem; }
+      .seccion-4-inicio .div-instagram div a {
+        height: 9.375rem;
+        width: 9.375rem; }
+        .seccion-4-inicio .div-instagram div a img {
+          height: 9.375rem;
+          width: 9.375rem; } }
+
+@media (max-width: 650px) {
   .seccion-1-inicio {
     background-size: cover;
-    padding-left: 1.25rem; }
+    background-position: 20%; }
     .seccion-1-inicio .clase-iso {
-      height: 5.625rem; }
+      height: 10.625rem; }
     .seccion-1-inicio .clase-logo {
       width: 18.75rem; }
-  .seccion-2-inicio div p {
-    font-size: .9063rem;
-    padding: .125rem; }
   .seccion-2-inicio .div-valores-empresa {
     display: none; }
-  .seccion-3-inicio {
-    height: 20rem; }
-    .seccion-3-inicio h2 {
-      padding: .9375rem; }
-    .seccion-3-inicio .carrusel {
-      gap: 1.25rem; }
-      .seccion-3-inicio .carrusel h3 {
-        font-size: .9375rem; }
-      .seccion-3-inicio .carrusel article a {
-        height: 7.5rem;
-        width: 7.5rem; }
-        .seccion-3-inicio .carrusel article a img {
-          height: 7.5rem;
-          width: 7.5rem; } }
-
-@media (max-width: 425px) {
-  .seccion-4-inicio {
-    height: 18.75rem; }
-    .seccion-4-inicio h2 {
-      padding: .9375rem; }
-    .seccion-4-inicio .div-instagram {
-      gap: 1.25rem;
-      padding-top: 3.125rem; }
-      .seccion-4-inicio .div-instagram div {
-        object-fit: cover;
-        height: 7.5rem;
-        width: 7.5rem; }
-        .seccion-4-inicio .div-instagram div a {
-          height: 7.5rem;
-          width: 7.5rem; }
-          .seccion-4-inicio .div-instagram div a img {
-            object-fit: cover;
-            height: 7.5rem;
-            width: 7.5rem; }
-    .seccion-4-inicio .cambio-768 {
-      display: none; } }
-
-@media (max-width: 425px) {
+  .seccion-2-inicio div p {
+    font-size: .9688rem;
+    padding: .125rem; }
+  .seccion-3-inicio .carrusel {
+    gap: .9375rem; }
+    .seccion-3-inicio .carrusel h3 {
+      font-size: 1.25rem; }
+    .seccion-3-inicio .carrusel article a {
+      height: 9.375rem;
+      width: 9.375rem; }
+      .seccion-3-inicio .carrusel article a img {
+        height: 9.375rem;
+        width: 9.375rem; }
+  .seccion-4-inicio h2 {
+    padding: 1.25rem; }
+  .seccion-4-inicio .div-instagram {
+    gap: .75rem;
+    padding: 3.125rem 0; }
+    .seccion-4-inicio .div-instagram div {
+      height: 9.375rem;
+      width: 9.375rem; }
+      .seccion-4-inicio .div-instagram div a {
+        height: 9.375rem;
+        width: 9.375rem; }
+        .seccion-4-inicio .div-instagram div a img {
+          height: 9.375rem;
+          width: 9.375rem; }
+  .seccion-4-inicio .cambio-768 {
+    display: none; }
   .footer-inicio {
     background-color: #00425A;
     color: #F0EFE7;
-    height: 12.5rem;
+    font-size: .9375rem;
+    display: flex;
+    justify-content: space-around; }
+    .footer-inicio .ubicacion {
+      padding-top: .3125rem; }
+      .footer-inicio .ubicacion h4 {
+        text-align: center;
+        font-size: 1.25rem; }
+      .footer-inicio .ubicacion div img {
+        height: 1.5625rem;
+        width: 1.5625rem;
+        object-fit: contain; }
+    .footer-inicio .contacto {
+      padding-top: .3125rem; }
+      .footer-inicio .contacto div img {
+        width: 1.5625rem;
+        height: 1.5625rem;
+        object-fit: contain; }
+      .footer-inicio .contacto h4 {
+        text-align: center;
+        font-size: 1.25rem; }
+    .footer-inicio .seguinos {
+      padding-top: .3125rem; }
+      .footer-inicio .seguinos h4 {
+        text-align: center;
+        font-size: 1.25rem; }
+      .footer-inicio .seguinos div a {
+        text-decoration: none;
+        color: #F0EFE7; }
+        .footer-inicio .seguinos div a img {
+          width: 1.5625rem;
+          height: 1.5625rem;
+          object-fit: contain; } }
+
+@media (max-width: 490px) {
+  .seccion-1-inicio {
+    background-size: cover; }
+    .seccion-1-inicio .clase-iso {
+      height: 7.5rem; }
+    .seccion-1-inicio .clase-logo {
+      width: 18.75rem; }
+  .seccion-2-inicio div p {
+    font-size: .8875rem;
+    padding: .125rem; }
+  .seccion-2-inicio .div-valores-empresa {
+    display: none; }
+  .seccion-3-inicio h2 {
+    padding: .9375rem; }
+  .seccion-3-inicio .carrusel {
+    gap: .9375rem;
+    padding: 1.875rem 0; }
+    .seccion-3-inicio .carrusel h3 {
+      font-size: .9375rem; }
+    .seccion-3-inicio .carrusel article a {
+      height: 7.5rem;
+      width: 7.5rem; }
+      .seccion-3-inicio .carrusel article a img {
+        height: 7.5rem;
+        width: 7.5rem; }
+  .seccion-4-inicio h2 {
+    padding: .9375rem; }
+  .seccion-4-inicio .div-instagram {
+    gap: .9375rem;
+    padding: 1.875rem 0; }
+    .seccion-4-inicio .div-instagram div {
+      object-fit: cover;
+      height: 7.5rem;
+      width: 7.5rem; }
+      .seccion-4-inicio .div-instagram div a {
+        height: 7.5rem;
+        width: 7.5rem; }
+        .seccion-4-inicio .div-instagram div a img {
+          object-fit: cover;
+          height: 7.5rem;
+          width: 7.5rem; }
+  .seccion-4-inicio .cambio-768 {
+    display: none; }
+  .footer-inicio {
+    background-color: #00425A;
+    color: #F0EFE7;
     font-size: .9375rem;
     display: flex;
     justify-content: space-around; }
@@ -636,62 +752,147 @@ main {
             height: 1.5625rem;
             object-fit: contain; } }
 
-@media (max-width: 375px) {
+@media (max-width: 420px) {
   .seccion-1-inicio {
-    background-size: cover;
-    padding-left: .625rem; }
+    background-size: cover; }
     .seccion-1-inicio .clase-iso {
-      height: 5.625rem; }
+      height: 6.25rem; }
     .seccion-1-inicio .clase-logo {
       width: 15.625rem; }
-  .seccion-2-inicio {
-    height: 6.875rem; }
-    .seccion-2-inicio div p {
-      font-size: .7813rem;
-      padding: .125rem;
-      height: 6.875rem; }
-    .seccion-2-inicio .div-valores-empresa {
-      display: none; }
-  .seccion-3-inicio {
-    height: 17.5rem; }
-    .seccion-3-inicio h2 {
-      padding: .625rem; }
-    .seccion-3-inicio .carrusel {
-      gap: .9375rem;
-      padding-top: 2.8125rem; }
-      .seccion-3-inicio .carrusel h3 {
-        font-size: .8438rem; }
-      .seccion-3-inicio .carrusel article a {
+  .seccion-2-inicio div p {
+    font-size: .8875rem;
+    padding: .125rem; }
+  .seccion-2-inicio .div-valores-empresa {
+    display: none; }
+  .seccion-3-inicio h2 {
+    padding: .9375rem; }
+  .seccion-3-inicio .carrusel {
+    gap: .9375rem;
+    padding: 1.875rem 0; }
+    .seccion-3-inicio .carrusel h3 {
+      font-size: .9375rem; }
+    .seccion-3-inicio .carrusel article a {
+      height: 6.25rem;
+      width: 6.25rem; }
+      .seccion-3-inicio .carrusel article a img {
         height: 6.25rem;
         width: 6.25rem; }
-        .seccion-3-inicio .carrusel article a img {
+  .seccion-4-inicio h2 {
+    padding: .9375rem; }
+  .seccion-4-inicio .div-instagram {
+    gap: .9375rem;
+    padding: 1.875rem 0; }
+    .seccion-4-inicio .div-instagram div {
+      object-fit: cover;
+      height: 6.25rem;
+      width: 6.25rem; }
+      .seccion-4-inicio .div-instagram div a {
+        height: 6.25rem;
+        width: 6.25rem; }
+        .seccion-4-inicio .div-instagram div a img {
+          object-fit: cover;
           height: 6.25rem;
           width: 6.25rem; }
-  .seccion-4-inicio {
-    height: 15.625rem; }
-    .seccion-4-inicio h2 {
-      padding: .9375rem; }
-    .seccion-4-inicio .div-instagram {
-      gap: .9375rem;
-      padding-top: 2.1875rem; }
-      .seccion-4-inicio .div-instagram div {
-        object-fit: cover;
-        height: 6.875rem;
-        width: 6.875rem; }
-        .seccion-4-inicio .div-instagram div a {
-          height: 6.875rem;
-          width: 6.875rem; }
-          .seccion-4-inicio .div-instagram div a img {
-            object-fit: cover;
-            height: 6.875rem;
-            width: 6.875rem; } }
-
-@media (max-width: 375px) {
+  .seccion-4-inicio .cambio-768 {
+    display: none; }
   .footer-inicio {
     background-color: #00425A;
     color: #F0EFE7;
-    height: 12.5rem;
-    font-size: 13px;
+    font-size: .8125rem;
+    display: flex;
+    justify-content: space-around; }
+    .footer-inicio .ubicacion {
+      padding-top: .3125rem; }
+      .footer-inicio .ubicacion h4 {
+        text-align: center;
+        font-size: 1.125rem; }
+      .footer-inicio .ubicacion div {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        align-items: center; }
+        .footer-inicio .ubicacion div img {
+          height: 1.5625rem;
+          width: 1.5625rem;
+          object-fit: contain; }
+    .footer-inicio .contacto {
+      padding-top: .3125rem; }
+      .footer-inicio .contacto div {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .footer-inicio .contacto div img {
+          width: 1.5625rem;
+          height: 1.5625rem;
+          object-fit: contain; }
+      .footer-inicio .contacto h4 {
+        text-align: center;
+        font-size: 1.125rem; }
+    .footer-inicio .seguinos {
+      padding-top: .3125rem; }
+      .footer-inicio .seguinos h4 {
+        text-align: center;
+        font-size: 1.125rem; }
+      .footer-inicio .seguinos div {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .footer-inicio .seguinos div a {
+          text-decoration: none;
+          color: #F0EFE7; }
+          .footer-inicio .seguinos div a img {
+            width: 1.5625rem;
+            height: 1.5625rem;
+            object-fit: contain; } }
+
+@media (max-width: 375px) {
+  .seccion-1-inicio {
+    background-size: cover; }
+    .seccion-1-inicio .clase-iso {
+      height: 6.25rem; }
+    .seccion-1-inicio .clase-logo {
+      width: 13.75rem; }
+  .seccion-2-inicio {
+    height: 7.5rem; }
+    .seccion-2-inicio div {
+      height: 7.5rem; }
+      .seccion-2-inicio div p {
+        font-size: .8125rem;
+        padding: .0625rem;
+        height: 7.5rem; }
+    .seccion-2-inicio .div-valores-empresa {
+      display: none; }
+  .seccion-3-inicio h2 {
+    padding: .625rem; }
+  .seccion-3-inicio .carrusel {
+    gap: .625rem; }
+    .seccion-3-inicio .carrusel h3 {
+      font-size: .8438rem; }
+    .seccion-3-inicio .carrusel article a {
+      height: 6.25rem;
+      width: 6.25rem; }
+      .seccion-3-inicio .carrusel article a img {
+        height: 6.25rem;
+        width: 6.25rem; }
+  .seccion-4-inicio h2 {
+    padding: .9375rem; }
+  .seccion-4-inicio .div-instagram {
+    gap: .625rem; }
+    .seccion-4-inicio .div-instagram div {
+      object-fit: cover;
+      height: 6.875rem;
+      width: 6.875rem; }
+      .seccion-4-inicio .div-instagram div a {
+        height: 6.875rem;
+        width: 6.875rem; }
+        .seccion-4-inicio .div-instagram div a img {
+          object-fit: cover;
+          height: 6.875rem;
+          width: 6.875rem; }
+  .footer-inicio {
+    background-color: #00425A;
+    color: #F0EFE7;
+    font-size: .8125rem;
     display: flex;
     justify-content: space-around; }
     .footer-inicio .ubicacion {
@@ -738,10 +939,9 @@ main {
             height: 1.5625rem;
             object-fit: contain; } }
 
-@media (max-width: 320px) {
+@media (max-width: 350px) {
   .seccion-1-inicio {
-    background-size: cover;
-    background-position: 30%; }
+    background-size: cover; }
     .seccion-1-inicio .clase-iso {
       height: 5.625rem; }
     .seccion-1-inicio .clase-logo {
@@ -750,47 +950,41 @@ main {
     height: 6.875rem; }
     .seccion-2-inicio div p {
       font-size: .75rem;
-      padding: .0625rem;
+      padding: 0%;
       height: 6.875rem; }
     .seccion-2-inicio .div-valores-empresa {
       display: none; }
-  .seccion-3-inicio {
-    height: 17.5rem; }
-    .seccion-3-inicio h2 {
-      padding: .625rem; }
-    .seccion-3-inicio .carrusel {
-      gap: .9375rem;
-      padding-top: 2.8125rem; }
-      .seccion-3-inicio .carrusel h3 {
-        font-size: .8438rem; }
-      .seccion-3-inicio .carrusel article a {
-        height: 5.625rem;
-        width: 5.625rem; }
-        .seccion-3-inicio .carrusel article a img {
-          height: 5.625rem;
-          width: 5.625rem; } }
-
-@media (max-width: 320px) {
-  .seccion-4-inicio {
-    height: 15.625rem; }
-    .seccion-4-inicio h2 {
-      padding: .9375rem; }
-    .seccion-4-inicio .div-instagram {
-      gap: .625rem;
-      padding-top: 2.1875rem; }
-      .seccion-4-inicio .div-instagram div {
-        object-fit: cover;
+  .seccion-3-inicio h2 {
+    padding: .625rem;
+    font-size: 1.375rem; }
+  .seccion-3-inicio .carrusel {
+    gap: .625rem; }
+    .seccion-3-inicio .carrusel h3 {
+      font-size: .75rem; }
+    .seccion-3-inicio .carrusel article a {
+      height: 6.25rem;
+      width: 6.25rem; }
+      .seccion-3-inicio .carrusel article a img {
         height: 6.25rem;
         width: 6.25rem; }
-        .seccion-4-inicio .div-instagram div a {
-          height: 6.25rem;
-          width: 6.25rem; }
-          .seccion-4-inicio .div-instagram div a img {
-            object-fit: cover;
-            height: 6.25rem;
-            width: 6.25rem; } }
-
-@media (max-width: 320px) {
+  .seccion-4-inicio h2 {
+    padding: .9375rem;
+    font-size: 1.375rem; }
+  .seccion-4-inicio .div-instagram {
+    gap: .9375rem; }
+    .seccion-4-inicio .div-instagram div {
+      object-fit: cover;
+      height: 7.5rem;
+      width: 7.5rem; }
+      .seccion-4-inicio .div-instagram div a {
+        height: 7.5rem;
+        width: 7.5rem; }
+        .seccion-4-inicio .div-instagram div a img {
+          object-fit: cover;
+          height: 7.5rem;
+          width: 7.5rem; }
+    .seccion-4-inicio .div-instagram .cambio-320 {
+      display: none; }
   .footer-inicio {
     background-color: #00425A;
     color: #F0EFE7;
@@ -840,6 +1034,266 @@ main {
           .footer-inicio .seguinos div a img {
             width: 1.5625rem;
             height: 1.5625rem;
+            object-fit: contain; } }
+
+@media (max-width: 320px) {
+  .seccion-1-inicio {
+    background-size: cover;
+    background-position: 30%; }
+    .seccion-1-inicio .clase-iso {
+      height: 5.625rem; }
+    .seccion-1-inicio .clase-logo {
+      width: 11.25rem; }
+  .seccion-2-inicio {
+    height: 7.5rem; }
+    .seccion-2-inicio div p {
+      font-size: .7188rem;
+      padding: 0%;
+      height: 7.5rem; }
+    .seccion-2-inicio .div-valores-empresa {
+      display: none; }
+  .seccion-3-inicio h2 {
+    padding: .625rem; }
+  .seccion-3-inicio .carrusel {
+    gap: .5rem; }
+    .seccion-3-inicio .carrusel h3 {
+      font-size: .6875rem; }
+    .seccion-3-inicio .carrusel article a {
+      height: 5rem;
+      width: 5rem; }
+      .seccion-3-inicio .carrusel article a img {
+        height: 5rem;
+        width: 5rem; }
+  .seccion-4-inicio h2 {
+    padding: .9375rem; }
+  .seccion-4-inicio .div-instagram {
+    gap: .625rem;
+    padding-top: 2.1875rem; }
+    .seccion-4-inicio .div-instagram div {
+      object-fit: cover;
+      height: 6.25rem;
+      width: 6.25rem; }
+      .seccion-4-inicio .div-instagram div a {
+        height: 6.25rem;
+        width: 6.25rem; }
+        .seccion-4-inicio .div-instagram div a img {
+          object-fit: cover;
+          height: 6.25rem;
+          width: 6.25rem; }
+  .footer-inicio {
+    background-color: #00425A;
+    color: #F0EFE7;
+    font-size: .625rem;
+    display: flex;
+    justify-content: space-around; }
+    .footer-inicio .ubicacion {
+      padding-top: .3125rem; }
+      .footer-inicio .ubicacion h4 {
+        font-size: .75rem;
+        text-align: center; }
+      .footer-inicio .ubicacion div {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        align-items: center; }
+        .footer-inicio .ubicacion div img {
+          height: 1.25rem;
+          width: 1.25rem;
+          object-fit: contain; }
+    .footer-inicio .contacto {
+      padding-top: .3125rem; }
+      .footer-inicio .contacto div {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .footer-inicio .contacto div img {
+          width: 1.25rem;
+          height: 1.25rem;
+          object-fit: contain; }
+      .footer-inicio .contacto h4 {
+        text-align: center;
+        font-size: .75rem; }
+    .footer-inicio .seguinos {
+      padding-top: .3125rem; }
+      .footer-inicio .seguinos h4 {
+        text-align: center;
+        font-size: .75rem; }
+      .footer-inicio .seguinos div {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .footer-inicio .seguinos div a {
+          text-decoration: none;
+          color: #F0EFE7; }
+          .footer-inicio .seguinos div a img {
+            width: 1.25rem;
+            height: 1.25rem;
+            object-fit: contain; } }
+
+@media (max-width: 270px) {
+  .seccion-1-inicio {
+    background-size: cover;
+    background-position: 30%; }
+    .seccion-1-inicio .clase-iso {
+      height: 5rem; }
+    .seccion-1-inicio .clase-logo {
+      width: 9.375rem; }
+  .seccion-2-inicio {
+    height: 7.5rem; }
+    .seccion-2-inicio div p {
+      font-size: .6875rem;
+      padding: 0%;
+      height: 7.5rem; }
+    .seccion-2-inicio .div-valores-empresa {
+      display: none; }
+  .seccion-3-inicio h2 {
+    padding: .625rem; }
+  .seccion-3-inicio .carrusel {
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem; }
+    .seccion-3-inicio .carrusel h3 {
+      font-size: .6875rem; }
+    .seccion-3-inicio .carrusel article a {
+      height: 5rem;
+      width: 5rem; }
+      .seccion-3-inicio .carrusel article a img {
+        height: 5rem;
+        width: 5rem; }
+  .seccion-4-inicio h2 {
+    padding: .9375rem; }
+  .seccion-4-inicio .div-instagram {
+    gap: .625rem;
+    padding-top: 2.1875rem;
+    flex-direction: column;
+    align-items: center; }
+    .seccion-4-inicio .div-instagram div {
+      object-fit: cover;
+      height: 6.25rem;
+      width: 6.25rem; }
+      .seccion-4-inicio .div-instagram div a {
+        height: 6.25rem;
+        width: 6.25rem; }
+        .seccion-4-inicio .div-instagram div a img {
+          object-fit: cover;
+          height: 6.25rem;
+          width: 6.25rem; }
+  .footer-inicio {
+    background-color: #00425A;
+    color: #F0EFE7;
+    font-size: .625rem;
+    display: flex;
+    justify-content: space-between; }
+    .footer-inicio .ubicacion {
+      display: none; }
+    .footer-inicio .contacto {
+      padding-top: .3125rem; }
+      .footer-inicio .contacto div {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .footer-inicio .contacto div img {
+          width: 1.25rem;
+          height: 1.25rem;
+          object-fit: contain; }
+      .footer-inicio .contacto h4 {
+        text-align: center;
+        font-size: .75rem; }
+    .footer-inicio .seguinos {
+      padding-top: .3125rem; }
+      .footer-inicio .seguinos h4 {
+        text-align: center;
+        font-size: .75rem; }
+      .footer-inicio .seguinos div {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .footer-inicio .seguinos div a {
+          text-decoration: none;
+          color: #F0EFE7; }
+          .footer-inicio .seguinos div a img {
+            width: 1.25rem;
+            height: 1.25rem;
+            object-fit: contain; } }
+
+@media (max-width: 230px) {
+  .seccion-1-inicio {
+    background-size: contain;
+    background-position: 100%; }
+    .seccion-1-inicio .clase-iso {
+      height: 4.375rem; }
+    .seccion-1-inicio .clase-logo {
+      width: 6.25rem; }
+  .seccion-2-inicio {
+    display: none; }
+  .seccion-3-inicio h2 {
+    padding: .625rem; }
+  .seccion-3-inicio .carrusel {
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem; }
+    .seccion-3-inicio .carrusel h3 {
+      font-size: .6875rem; }
+    .seccion-3-inicio .carrusel article a {
+      height: 5rem;
+      width: 5rem; }
+      .seccion-3-inicio .carrusel article a img {
+        height: 5rem;
+        width: 5rem; }
+  .seccion-4-inicio h2 {
+    padding: .9375rem; }
+  .seccion-4-inicio .div-instagram {
+    gap: .625rem;
+    padding-top: 2.1875rem;
+    flex-direction: column;
+    align-items: center; }
+    .seccion-4-inicio .div-instagram div {
+      object-fit: cover;
+      height: 6.25rem;
+      width: 6.25rem; }
+      .seccion-4-inicio .div-instagram div a {
+        height: 6.25rem;
+        width: 6.25rem; }
+        .seccion-4-inicio .div-instagram div a img {
+          object-fit: cover;
+          height: 6.25rem;
+          width: 6.25rem; }
+  .footer-inicio {
+    background-color: #00425A;
+    color: #F0EFE7;
+    font-size: .625rem;
+    display: flex;
+    justify-content: space-between; }
+    .footer-inicio .ubicacion {
+      display: none; }
+    .footer-inicio .contacto {
+      padding-top: .3125rem; }
+      .footer-inicio .contacto div {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .footer-inicio .contacto div img {
+          width: 1.25rem;
+          height: 1.25rem;
+          object-fit: contain; }
+      .footer-inicio .contacto h4 {
+        text-align: center;
+        font-size: .75rem; }
+    .footer-inicio .seguinos {
+      padding-top: .3125rem; }
+      .footer-inicio .seguinos h4 {
+        text-align: center;
+        font-size: .75rem; }
+      .footer-inicio .seguinos div {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .footer-inicio .seguinos div a {
+          text-decoration: none;
+          color: #F0EFE7; }
+          .footer-inicio .seguinos div a img {
+            width: 1.25rem;
+            height: 1.25rem;
             object-fit: contain; } }
 
 @media (max-width: 700px) {

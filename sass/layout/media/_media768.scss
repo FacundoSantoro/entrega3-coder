@@ -1,17 +1,17 @@
-@media(max-width: 768px){
+@media(max-width: 1080px){
     .seccion-1-inicio{
-        background-size: contain;
+        background-size: cover;
             .clase-iso{
-                height: 9.375rem;
+                height: 12.5rem;
             }
             .clase-logo{
-                width: 28.125rem;
+                width: 34.375rem;
             }
     }
     .seccion-2-inicio{
         div{
             p{
-                font-size: 1.0313rem;
+                font-size: 1.1563rem;
                 padding: .3125rem;
             }
         }
@@ -25,7 +25,6 @@
         }
     } 
     .seccion-3-inicio{
-        height: 25rem;
         h2{
             padding: 1.25rem;
         }
@@ -47,42 +46,37 @@
         }
     }
     .seccion-4-inicio{
-        height: 25rem;
         h2{
             padding: 1.875rem;
         }
         .div-instagram{
             gap: 1.5625rem;
-            padding-top: 1.875rem;
+            padding: 3.125rem 0;
             div{
                 object-fit: cover;
-                height: 15.625rem;
-                width: 15.625rem;
+                height: 13.75rem;
+                width: 13.75rem;
                 a{
-                    height: 15.625rem;
-                    width: 15.625rem;
+                    height: 13.75rem;
+                    width: 13.75rem;
                     img{
                         object-fit: cover;
-                        height: 15.625rem;
-                        width: 15.625rem;
+                        height: 13.75rem;
+                        width: 13.75rem;
                     }
                 }
             }
         }
-        .cambio-768{
-            display: none;
-        }
     }
 }
-@media(max-width: 768px){
+@media(max-width: 970px){
     .seccion-4-inicio{
-    height: 25rem;
     h2{
         padding: 1.25rem;
     }
     .div-instagram{
         gap: 1.5625rem;
-        padding-top: 3.125rem;
+        padding: 3.125rem 0;
         div{
             object-fit: cover;
             height: 12.5rem;
@@ -103,4 +97,221 @@
         font-size: 1.0625rem;
     }
 }
-
+@media(max-width: 880px){
+    .seccion-1-inicio{
+        background-size: cover;
+            .clase-iso{
+                height: 12.5rem;
+            }
+            .clase-logo{
+                width: 31.25rem;
+            }
+    }
+    .seccion-2-inicio{
+        div{
+            p{
+                font-size: 1.0625rem;
+                padding: .1875rem;
+            }
+        }
+    }
+    .seccion-4-inicio{
+    h2{
+        padding: 1.25rem;
+    }
+    .div-instagram{
+        gap: 1.25rem;
+        padding: 3.125rem 0;
+        div{
+            object-fit: cover;
+            height: 10.625rem;
+            width: 10.625rem;
+            a{
+                height: 10.625rem;
+                width: 10.625rem;
+                img{
+                    object-fit: cover;
+                    height: 10.625rem;
+                    width: 10.625rem;
+                }
+            }
+        }
+        }
+    }
+}
+@media(max-width: 750px){
+    .seccion-1-inicio{
+        background-size: cover;
+            .clase-iso{
+                height: 10.625rem;
+            }
+            .clase-logo{
+                width: 25rem;
+            }
+    }
+    .seccion-2-inicio{
+        div{
+            p{
+                font-size: 1.0625rem;
+                padding: .1875rem;
+            }
+        }
+    }
+    .seccion-3-inicio{
+        .carrusel{
+            gap: 2.5rem;
+            h3{
+                font-size: 1.25rem;
+            }
+            article{
+                a{
+                    height: 9.375rem;
+                    width: 9.375rem;
+                    img{
+                        height: 9.375rem;
+                        width: 9.375rem;
+                    }
+                }
+            }
+        }
+    }
+    .seccion-4-inicio{
+    h2{
+        padding: 1.25rem;
+    }
+    .div-instagram{
+        gap: .75rem;
+        padding: 3.125rem 0;
+        div{
+            height: 9.375rem;
+            width: 9.375rem;
+            a{
+                height: 9.375rem;
+                width: 9.375rem;
+                img{
+                    height: 9.375rem;
+                    width: 9.375rem;
+                }
+            }
+        }
+        }
+    }
+}
+@media(max-width: 650px){
+    .seccion-1-inicio{
+        background-size: cover;
+        background-position: 20%;
+            .clase-iso{
+                height: 10.625rem;
+            }
+            .clase-logo{
+                width: 18.75rem;
+            }
+    }
+    .seccion-2-inicio{
+        .div-valores-empresa{
+            display: none;
+        }
+        div{
+            p{
+                font-size: .9688rem;
+                padding: .125rem;
+            }
+        }
+    }
+    .seccion-3-inicio{
+        .carrusel{
+            gap: .9375rem;
+            h3{
+                font-size: 1.25rem;
+            }
+            article{
+                a{
+                    height: 9.375rem;
+                    width: 9.375rem;
+                    img{
+                        height: 9.375rem;
+                        width: 9.375rem;
+                    }
+                }
+            }
+        }
+    }
+    .seccion-4-inicio{
+    h2{
+        padding: 1.25rem;
+    }
+    .div-instagram{
+        gap: .75rem;
+        padding: 3.125rem 0;
+        div{
+            height: 9.375rem;
+            width: 9.375rem;
+            a{
+                height: 9.375rem;
+                width: 9.375rem;
+                img{
+                    height: 9.375rem;
+                    width: 9.375rem;
+                }
+            }
+        }
+        }
+        .cambio-768{
+            display: none;
+        }
+    }
+    .footer-inicio{
+        background-color: #00425A;
+        color: #F0EFE7;
+        font-size: .9375rem;
+        display: flex;
+        justify-content: space-around;
+        .ubicacion{
+            padding-top: .3125rem;
+            h4{
+                text-align: center;
+                font-size: 1.25rem;
+            }
+            div{
+                img{
+                    height: 1.5625rem;
+                    width: 1.5625rem;
+                    object-fit: contain;
+                }
+            }
+        }
+        .contacto{
+            padding-top: .3125rem;
+            div{
+                img{
+                    width: 1.5625rem;
+                    height: 1.5625rem;
+                    object-fit: contain;
+                }
+            }
+            h4{
+                text-align: center;
+                font-size: 1.25rem;
+            }
+        }
+        .seguinos{
+            padding-top: .3125rem;
+            h4{
+                text-align: center;
+                font-size: 1.25rem;
+            }
+            div{
+                a{
+                    text-decoration: none;
+                    color: #F0EFE7;
+                    img{
+                        width: 1.5625rem;
+                        height: 1.5625rem;
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+    }
+}

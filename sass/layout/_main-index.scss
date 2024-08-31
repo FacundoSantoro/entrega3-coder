@@ -1,14 +1,11 @@
-@media(max-width:1440px){
 .seccion-1-inicio{
     background-image: url(../assets/img/logotipo.png);
     background-size: cover;
     background-color: $color1;
-    background-position: 60%;
     background-repeat: no-repeat;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    padding-left: 3.125rem;
+    justify-content: center;
     .clase-logo{
         object-fit: contain;
         width: 56.25rem;
@@ -57,7 +54,6 @@
 
 .seccion-3-inicio{
     background-color: $color1;
-    height: 30.0625rem;
     h2{
         text-align: center;
         text-decoration: underline;
@@ -70,7 +66,7 @@
         flex-wrap: wrap;
         justify-content: center;
         gap: 7.5rem;
-        padding-top: 3.125rem;
+        padding: 3.125rem 0;
         h3{
             color: $color-texto1;
             font-size: 1.5625rem;
@@ -89,33 +85,31 @@
         }
     }
 }
-    .seccion-4-inicio{
-        background-color: $color1;
-        height: 36.25rem;
-        text-align: center;
-        h2{
-            padding: 2.5rem;
-            background-color: $color2;
-            color: $color-texto1;
-            text-decoration: underline;
-        }
-        .div-instagram{
-            @include flex(row,nowrap);
-            justify-content: center;
-            gap: 1.5625rem;
-            padding-top: 4.375rem;
-            div{
-                object-fit: cover;
+.seccion-4-inicio{
+    background-color: $color1;
+    text-align: center;
+    h2{
+        padding: 2.5rem;
+        background-color: $color2;
+        color: $color-texto1;
+        text-decoration: underline;
+    }
+    .div-instagram{
+        @include flex(row,nowrap);
+        justify-content: center;
+        gap: 1.5625rem;
+        padding: 3.125rem 0;
+        div{
+            object-fit: cover;
+            height: 18.75rem;
+            width: 18.75rem;
+            a{
                 height: 18.75rem;
                 width: 18.75rem;
-                a{
+                img{
+                    object-fit: cover;
                     height: 18.75rem;
                     width: 18.75rem;
-                    img{
-                        object-fit: cover;
-                        height: 18.75rem;
-                        width: 18.75rem;
-                    }
                 }
             }
         }

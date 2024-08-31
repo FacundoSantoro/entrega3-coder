@@ -6,16 +6,16 @@
                 height: 5.625rem;
             }
             .clase-logo{
-                width: 12.5rem;
+                width: 11.25rem;
             }
     }
     .seccion-2-inicio{
-        height: 6.875rem;
+        height: 7.5rem;
         div{
             p{
-                font-size: .75rem;
-                padding: .0625rem;
-                height: 6.875rem;
+                font-size: .7188rem;
+                padding: 0%;
+                height: 7.5rem;
             }
         }
         .div-valores-empresa{
@@ -23,32 +23,27 @@
         }
     } 
     .seccion-3-inicio{
-        height: 17.5rem;
         h2{
             padding: .625rem;
         }
         .carrusel{
-            gap: .9375rem;
-            padding-top: 2.8125rem;
+            gap: .5rem;
             h3{
-                font-size: .8438rem;
+                font-size: .6875rem;
             }
             article{
                 a{
-                    height: 5.625rem;
-                    width: 5.625rem;
+                    height: 5rem;
+                    width: 5rem;
                     img{
-                        height: 5.625rem;
-                        width:5.625rem;
+                        height: 5rem;
+                        width:5rem;
                     }
                 }
             }
         }
     }
-}
-@media(max-width: 320px){
     .seccion-4-inicio{
-    height: 15.625rem;
     h2{
         padding: .9375rem;
     }
@@ -70,34 +65,153 @@
             }
         }
     }
-}
+    }
+    .footer-inicio{
+        background-color: #00425A;
+        color: #F0EFE7;
+        font-size: .625rem;
+        display: flex;
+        justify-content: space-around;
+        .ubicacion{
+            padding-top: .3125rem;
+            h4{
+                font-size: .75rem;
+                text-align: center;
+            }
+            div{
+                display: flex;
+                flex-direction: column;
+                text-align:left;
+                align-items: center;
+                img{
+                    height: 1.25rem;
+                    width: 1.25rem;
+                    object-fit: contain;
+                }
+            }
+        }
+        .contacto{
+            padding-top: .3125rem;
+            div{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                img{
+                    width: 1.25rem;
+                    height: 1.25rem;
+                    object-fit: contain;
+                }
+            }
+            h4{
+                text-align: center;
+                font-size: .75rem;
+            }
+        }
+        .seguinos{
+            padding-top: .3125rem;
+            h4{
+                text-align: center;
+                font-size: .75rem;
+            }
+            div{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                a{
+                    text-decoration: none;
+                    color: #F0EFE7;
+                    img{
+                        width: 1.25rem;
+                        height: 1.25rem;
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+    }
 }
 
-@media(max-width: 320px){
+
+@media(max-width: 270px){
+    .seccion-1-inicio{
+        background-size: cover;
+        background-position: 30%;
+            .clase-iso{
+                height: 5rem;
+            }
+            .clase-logo{
+                width: 9.375rem;
+            }
+    }
+    .seccion-2-inicio{
+        height: 7.5rem;
+        div{
+            p{
+                font-size: .6875rem;
+                padding: 0%;
+                height: 7.5rem;
+            }
+        }
+        .div-valores-empresa{
+            display: none;
+        }
+    } 
+    .seccion-3-inicio{
+        h2{
+            padding: .625rem;
+        }
+        .carrusel{
+            flex-direction: column;
+            align-items: center;
+            gap: .5rem;
+            h3{
+                font-size: .6875rem;
+            }
+            article{
+                a{
+                    height: 5rem;
+                    width: 5rem;
+                    img{
+                        height: 5rem;
+                        width:5rem;
+                    }
+                }
+            }
+        }
+    }
+    .seccion-4-inicio{
+    h2{
+        padding: .9375rem;
+    }
+    .div-instagram{
+        gap: .625rem;
+        padding-top: 2.1875rem;
+        flex-direction: column;
+            align-items: center;
+        div{
+            object-fit: cover;
+            height: 6.25rem;
+            width: 6.25rem;
+            a{
+                height: 6.25rem;
+                width: 6.25rem;
+                img{
+                    object-fit: cover;
+                    height: 6.25rem;
+                    width: 6.25rem;
+                }
+            }
+        }
+    }
+}
 .footer-inicio{
     background-color: #00425A;
     color: #F0EFE7;
-    height: 12.5rem;
-    font-size: .8125rem;
+    font-size: .625rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     .ubicacion{
-        padding-top: .3125rem;
-        h4{
-            font-size: .9375rem;
-            text-align: center;
-        }
-        div{
-            display: flex;
-            flex-direction: column;
-            text-align:left;
-            align-items: center;
-            img{
-                height: 1.5625rem;
-                width: 1.5625rem;
-                object-fit: contain;
-            }
-        }
+        display: none;
     }
     .contacto{
         padding-top: .3125rem;
@@ -106,21 +220,21 @@
             flex-direction: column;
             align-items: center;
             img{
-                width: 1.5625rem;
-                height: 1.5625rem;
+                width: 1.25rem;
+                height: 1.25rem;
                 object-fit: contain;
             }
         }
         h4{
             text-align: center;
-            font-size: .9375rem;
+            font-size: .75rem;
         }
     }
     .seguinos{
         padding-top: .3125rem;
         h4{
             text-align: center;
-            font-size: .9375rem;
+            font-size: .75rem;
         }
         div{
             display: flex;
@@ -130,8 +244,120 @@
                 text-decoration: none;
                 color: #F0EFE7;
                 img{
-                    width: 1.5625rem;
-                    height: 1.5625rem;
+                    width: 1.25rem;
+                    height: 1.25rem;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}
+}
+
+@media(max-width: 230px){
+    .seccion-1-inicio{
+        background-size: contain;
+        background-position: 100%;
+            .clase-iso{
+                height: 4.375rem;
+            }
+            .clase-logo{
+                width: 6.25rem;
+            }
+    }
+    .seccion-2-inicio{
+        display: none;
+    } 
+    .seccion-3-inicio{
+        h2{
+            padding: .625rem;
+        }
+        .carrusel{
+            flex-direction: column;
+            align-items: center;
+            gap: .5rem;
+            h3{
+                font-size: .6875rem;
+            }
+            article{
+                a{
+                    height: 5rem;
+                    width: 5rem;
+                    img{
+                        height: 5rem;
+                        width:5rem;
+                    }
+                }
+            }
+        }
+    }
+    .seccion-4-inicio{
+    h2{
+        padding: .9375rem;
+    }
+    .div-instagram{
+        gap: .625rem;
+        padding-top: 2.1875rem;
+        flex-direction: column;
+            align-items: center;
+        div{
+            object-fit: cover;
+            height: 6.25rem;
+            width: 6.25rem;
+            a{
+                height: 6.25rem;
+                width: 6.25rem;
+                img{
+                    object-fit: cover;
+                    height: 6.25rem;
+                    width: 6.25rem;
+                }
+            }
+        }
+    }
+}
+.footer-inicio{
+    background-color: #00425A;
+    color: #F0EFE7;
+    font-size: .625rem;
+    display: flex;
+    justify-content: space-between;
+    .ubicacion{
+        display: none;
+    }
+    .contacto{
+        padding-top: .3125rem;
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+                width: 1.25rem;
+                height: 1.25rem;
+                object-fit: contain;
+            }
+        }
+        h4{
+            text-align: center;
+            font-size: .75rem;
+        }
+    }
+    .seguinos{
+        padding-top: .3125rem;
+        h4{
+            text-align: center;
+            font-size: .75rem;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            a{
+                text-decoration: none;
+                color: #F0EFE7;
+                img{
+                    width: 1.25rem;
+                    height: 1.25rem;
                     object-fit: contain;
                 }
             }

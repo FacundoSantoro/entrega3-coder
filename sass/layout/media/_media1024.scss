@@ -1,11 +1,13 @@
-@media(max-width: 1024px){
+@media(max-width: 1280px){
     .seccion-1-inicio{
-        background-size: contain;
+        background-size: cover;
+        justify-content: center;
+        padding-left: 0%;
             .clase-iso{
-                height: 12.5rem;
+                height: 15.625rem;
             }
             .clase-logo{
-                width: 37.5rem;
+                width: 43.75rem;
             }
     }
     .seccion-2-inicio{
@@ -47,13 +49,12 @@
         }
     }
     .seccion-4-inicio{
-        height: 25rem;
         h2{
             padding: 1.875rem;
         }
         .div-instagram{
             gap: 1.5625rem;
-            padding-top: 1.875rem;
+            padding: 3.125rem 0;
             div{
                 object-fit: cover;
                 height: 15.625rem;
@@ -68,9 +69,6 @@
                     }
                 }
             }
-        }
-        .cambio-768{
-            display: none;
         }
     }
 }
