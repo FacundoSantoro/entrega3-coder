@@ -23,7 +23,20 @@
         }
     }
     .contacto-registro{
-        @extend .ubicacion-registro
+        padding-top: .9375rem;
+        h4{
+            text-align: center;
+        }
+        div{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            img{
+                height: 2.1875rem;
+                width: 2.1875rem;
+                object-fit: contain;
+            }
+        }
     }
     .seguinos-registro{
         padding-top: .9375rem;

@@ -57,8 +57,8 @@
     .footer-registro{
         background-color: #00425A;
         color: #F0EFE7;
-        height: 30vh;
-        font-size: .8125rem;
+        height: 21.875rem;
+        font-size: .75rem;
         display: flex;
         justify-content: space-around;
         .ubicacion-registro{
@@ -101,6 +101,58 @@
             h4{
                 text-align: center;
                 font-size: .9375rem;
+            }
+            div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+                a{
+                    text-decoration: none;
+                    color: #F0EFE7;
+                    img{
+                        width: 1.5625rem;
+                        height: 1.5625rem;
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:300px){
+    .footer-registro{
+        background-color: #00425A;
+        color: #F0EFE7;
+        height: 21.875rem;
+        font-size: .625rem;
+        display: flex;
+        justify-content: space-around;
+        .ubicacion-registro{
+            display: none;
+        }
+        .contacto-registro{
+            padding-top: .3125rem;
+            div{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                img{
+                    width: 1.5625rem;
+                    height: 1.5625rem;
+                    object-fit: contain;
+                }
+            }
+            h4{
+                text-align: center;
+                font-size: .8125rem;
+            }
+        }
+        .seguinos-registro{
+            padding-top: .3125rem;
+            h4{
+                text-align: center;
+                font-size: .8125rem;
             }
             div{
             display: flex;
