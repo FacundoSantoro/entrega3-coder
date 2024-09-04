@@ -1,0 +1,120 @@
+@media(max-width: 1310px){
+    main{
+        .seccion-3-tienda{
+            gap: .9375rem;
+            article{
+                border: .125rem solid black;
+                padding: .625rem;
+                h3{
+                    padding-top: .625rem;
+                }
+                div{
+                    img{
+                        height: 12.5rem;
+                        width: 12.5rem;
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1190px){
+    main{
+        .seccion-3-tienda{
+            gap: .625rem;
+            article{
+                border: .125rem solid black;
+                padding: .625rem;
+                h3{
+                    padding-top: .625rem;
+                }
+                div{
+                    img{
+                        height: 10.625rem;
+                        width: 10.625rem;
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1050px){
+    main{
+        .seccion-3-tienda{
+            text-align: center;
+            background-color: #BFDB38;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: .625rem;
+            width: 100%;
+            padding-top: 1.25rem;
+            article{
+                border: .125rem solid black;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: .3125rem;
+                h3{
+                    padding-top: .625rem;
+                }
+                div{
+                    img{
+                        height: 9.375rem;
+                        width: 9.375rem;
+                        object-fit: contain;
+                    }
+                }
+                button{
+                    background-color: #00425A;
+                    height: 6.875rem;
+                    width: 100%;
+                    font-size: 1.0625rem;
+                    color: #F0EFE7;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 350px){
+    main{
+        .seccion-2-tienda{
+            background-color: #BFDB38;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding-top: .9375rem;
+            div{
+                align-self: center;
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    p{
+                        font-size: 1.125rem;
+                    }
+                }
+                h2{
+                    font-size: 1.25rem;
+                    padding-top: .625rem;
+                    padding-bottom: .625rem;
+                    text-decoration: underline;
+                }
+            }
+            aside{
+                button{
+                    background-color: #00425A;
+                    color: #F0EFE7;
+                    font-size: 1.25rem;
+                    box-sizing: content-box;
+                    padding: 10%;
+                }
+            }
+        }
+    }
+}

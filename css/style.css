@@ -232,7 +232,7 @@ header nav div .link:hover:after {
 .footer-contacto {
   display: flex;
   background-color: #00425A;
-  height: 20%;
+  height: 11.875rem;
   color: #F0EFE7; }
 
 .seccion-2-sobrenosotros {
@@ -284,50 +284,48 @@ main {
   background-color: #BFDB38; }
   main .seccion-2-tienda {
     background-color: #BFDB38;
-    width: 18.75rem;
     text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 20vh;
-    width: 100%;
     padding-top: .9375rem; }
-    main .seccion-2-tienda div {
-      height: 20vh; }
-      main .seccion-2-tienda div div {
-        display: flex;
-        gap: .625rem; }
-        main .seccion-2-tienda div div p {
-          font-size: 1.5625rem; }
-      main .seccion-2-tienda div h2 {
-        padding-top: .625rem;
-        padding-bottom: .625rem;
-        text-decoration: underline; }
+    main .seccion-2-tienda div div {
+      display: flex;
+      flex-direction: column;
+      gap: .625rem; }
+      main .seccion-2-tienda div div p {
+        font-size: 1.5625rem; }
+    main .seccion-2-tienda div h2 {
+      padding-top: .625rem;
+      padding-bottom: .625rem;
+      text-decoration: underline; }
     main .seccion-2-tienda aside button {
       background-color: #00425A;
       color: #F0EFE7;
-      height: 20vh;
-      width: 31.25rem;
-      font-size: 1.5625rem; }
+      font-size: 1.5625rem;
+      box-sizing: content-box;
+      padding: 30%; }
   main .seccion-3-tienda {
     text-align: center;
     background-color: #BFDB38;
-    height: 55vh;
-    width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    padding-top: 1.25rem; }
+    gap: 1.25rem;
+    width: 100%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    flex-wrap: wrap; }
     main .seccion-3-tienda article {
       border: .125rem solid black;
-      margin: .625rem;
-      height: 28.75rem; }
-      main .seccion-3-tienda article h3 {
-        padding-top: .625rem; }
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: .625rem; }
       main .seccion-3-tienda article div img {
-        height: 15.625rem;
-        width: 15.625rem;
-        object-fit: contain;
-        margin: .1875rem; }
+        height: 13.75rem;
+        width: 13.75rem;
+        object-fit: contain; }
       main .seccion-3-tienda article button {
         background-color: #00425A;
         height: 6.875rem;
@@ -337,7 +335,7 @@ main {
 
 .footer-tienda {
   background-color: #00425A;
-  height: 9.375rem; }
+  height: 16.25rem; }
   .footer-tienda div p {
     color: #F0EFE7; }
 
@@ -1993,3 +1991,85 @@ main {
           font-size: 1.25rem;
           padding: .3125rem;
           color: black; } }
+
+@media (max-width: 1310px) {
+  main .seccion-3-tienda {
+    gap: .9375rem; }
+    main .seccion-3-tienda article {
+      border: .125rem solid black;
+      padding: .625rem; }
+      main .seccion-3-tienda article h3 {
+        padding-top: .625rem; }
+      main .seccion-3-tienda article div img {
+        height: 12.5rem;
+        width: 12.5rem;
+        object-fit: contain; } }
+
+@media (max-width: 1190px) {
+  main .seccion-3-tienda {
+    gap: .625rem; }
+    main .seccion-3-tienda article {
+      border: .125rem solid black;
+      padding: .625rem; }
+      main .seccion-3-tienda article h3 {
+        padding-top: .625rem; }
+      main .seccion-3-tienda article div img {
+        height: 10.625rem;
+        width: 10.625rem;
+        object-fit: contain; } }
+
+@media (max-width: 1050px) {
+  main .seccion-3-tienda {
+    text-align: center;
+    background-color: #BFDB38;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: .625rem;
+    width: 100%;
+    padding-top: 1.25rem; }
+    main .seccion-3-tienda article {
+      border: .125rem solid black;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: .3125rem; }
+      main .seccion-3-tienda article h3 {
+        padding-top: .625rem; }
+      main .seccion-3-tienda article div img {
+        height: 9.375rem;
+        width: 9.375rem;
+        object-fit: contain; }
+      main .seccion-3-tienda article button {
+        background-color: #00425A;
+        height: 6.875rem;
+        width: 100%;
+        font-size: 1.0625rem;
+        color: #F0EFE7; } }
+
+@media (max-width: 350px) {
+  main .seccion-2-tienda {
+    background-color: #BFDB38;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: .9375rem; }
+    main .seccion-2-tienda div {
+      align-self: center; }
+      main .seccion-2-tienda div div {
+        display: flex;
+        flex-direction: column; }
+        main .seccion-2-tienda div div p {
+          font-size: 1.125rem; }
+      main .seccion-2-tienda div h2 {
+        font-size: 1.25rem;
+        padding-top: .625rem;
+        padding-bottom: .625rem;
+        text-decoration: underline; }
+    main .seccion-2-tienda aside button {
+      background-color: #00425A;
+      color: #F0EFE7;
+      font-size: 1.25rem;
+      box-sizing: content-box;
+      padding: 10%; } }
