@@ -73,6 +73,7 @@
             text-align: center;
         }
         article{
+            overflow: hidden;
             a{
                 height: 12.5rem;
                 width: 12.5rem;
@@ -80,6 +81,13 @@
                     height: 12.5rem;
                     width: 12.5rem;
                     object-fit: contain;
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                }
+            }
+            &:hover {
+                img {
+                    transform: scale(1.05);
+                    filter: drop-shadow(3px -3px 5px $color-texto1);
                 }
             }
         }
@@ -99,10 +107,13 @@
         justify-content: center;
         gap: 1.5625rem;
         padding: 3.125rem 0;
+        
         div{
             object-fit: cover;
             height: 18.75rem;
             width: 18.75rem;
+            overflow: hidden;
+            position: relative;
             a{
                 height: 18.75rem;
                 width: 18.75rem;
@@ -110,6 +121,10 @@
                     object-fit: cover;
                     height: 18.75rem;
                     width: 18.75rem;
+                    &:hover {
+                        transform: scale(1.05);
+                        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+                    }
                 }
             }
         }

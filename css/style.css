@@ -106,13 +106,19 @@ header nav div .link:hover:after {
       color: black;
       font-size: 1.5625rem;
       text-align: center; }
-    .seccion-3-inicio .carrusel article a {
-      height: 12.5rem;
-      width: 12.5rem; }
-      .seccion-3-inicio .carrusel article a img {
+    .seccion-3-inicio .carrusel article {
+      overflow: hidden; }
+      .seccion-3-inicio .carrusel article a {
         height: 12.5rem;
-        width: 12.5rem;
-        object-fit: contain; }
+        width: 12.5rem; }
+        .seccion-3-inicio .carrusel article a img {
+          height: 12.5rem;
+          width: 12.5rem;
+          object-fit: contain;
+          transition: transform 0.3s ease, box-shadow 0.3s ease; }
+      .seccion-3-inicio .carrusel article:hover img {
+        transform: scale(1.05);
+        filter: drop-shadow(3px -3px 5px black); }
 
 .seccion-4-inicio {
   background-color: #BFDB38;
@@ -132,7 +138,9 @@ header nav div .link:hover:after {
     .seccion-4-inicio .div-instagram div {
       object-fit: cover;
       height: 18.75rem;
-      width: 18.75rem; }
+      width: 18.75rem;
+      overflow: hidden;
+      position: relative; }
       .seccion-4-inicio .div-instagram div a {
         height: 18.75rem;
         width: 18.75rem; }
@@ -140,6 +148,9 @@ header nav div .link:hover:after {
           object-fit: cover;
           height: 18.75rem;
           width: 18.75rem; }
+          .seccion-4-inicio .div-instagram div a img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); }
 
 .footer-inicio {
   background-color: #00425A;
