@@ -1,196 +1,4 @@
-@media (max-width: 1300px){
-    .seccion-3-sobrenosotros{
-        text-align: justify;
-        background-color: #00425A;
-        color: #F0EFE7;
-        height: 60vh; 
-        border: .125rem solid black;
-        h2{
-            text-decoration: underline;
-            text-align: center;
-        }
-        p{
-            text-align: center;
-            font-size: 1.25rem;
-        }
-        .div-valores-empresa{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            div{
-                height: 24.4375rem;
-                border: .125rem solid black;
-                border-bottom: none;
-                background-color: #BFDB38;
-                h2{
-                    padding: .625rem;
-                    color: black;
-                }
-            }
-        }
-    }
-}
-@media (max-width: 1286px){
-    .seccion-3-sobrenosotros{
-        text-align: justify;
-        background-color: #00425A;
-        color: #F0EFE7;
-        height: 60vh; 
-        border: .125rem solid black;
-        h2{
-            text-decoration: underline;
-            text-align: center;
-        }
-        p{
-            text-align: center;
-            font-size: 1.25rem;
-        }
-        .div-valores-empresa{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            div{
-                height: 22.5625rem;
-                border: .125rem solid black;
-                border-bottom: none;
-                background-color: #BFDB38;
-                h2{
-                    padding: .625rem;
-                    color: black;
-                }
-            }
-        }
-    }
-}
-@media (max-width: 1207px){
-    .seccion-3-sobrenosotros{
-        text-align: justify;
-        background-color: #00425A;
-        color: #F0EFE7;
-        height: 60vh; 
-        border: .125rem solid black;
-        h2{
-            text-decoration: underline;
-            text-align: center;
-        }
-        p{
-            text-align: center;
-            font-size: 1.25rem;
-        }
-        .div-valores-empresa{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            div{
-                height: 20.6875rem;
-                border: .125rem solid black;
-                border-bottom: none;
-                background-color: #BFDB38;
-                h2{
-                    padding: .625rem;
-                    color: black;
-                }
-            }
-        }
-    }
-}
-@media (max-width: 1174px){
-    .seccion-3-sobrenosotros{
-        text-align: justify;
-        background-color: #00425A;
-        color: #F0EFE7;
-        height: 60vh; 
-        border: .125rem solid black;
-        h2{
-            text-decoration: underline;
-            text-align: center;
-        }
-        p{
-            text-align: center;
-            font-size: 1.25rem;
-        }
-        .div-valores-empresa{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            div{
-                height: 20.75rem;
-                border: .125rem solid black;
-                border-bottom: none;
-                background-color: #BFDB38;
-                h2{
-                    padding: .625rem;
-                    color: black;
-                }
-            }
-        }
-    }
-}
-@media (max-width: 1081px){
-    .seccion-3-sobrenosotros{
-        text-align: justify;
-        background-color: #00425A;
-        color: #F0EFE7;
-        height: 60vh; 
-        border: .125rem solid black;
-        h2{
-            text-decoration: underline;
-            text-align: center;
-        }
-        p{
-            text-align: center;
-            font-size: 1.25rem;
-        }
-        .div-valores-empresa{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            div{
-                height: 20.8125rem;
-                border: .125rem solid black;
-                border-bottom: none;
-                background-color: #BFDB38;
-                h2{
-                    padding: .625rem;
-                    color: black;
-                }
-            }
-        }
-    }
-}
-@media (max-width: 991px){
-    .seccion-3-sobrenosotros{
-        text-align: justify;
-        background-color: #00425A;
-        color: #F0EFE7;
-        height: 60vh; 
-        border: .125rem solid black;
-        h2{
-            text-decoration: underline;
-            text-align: center;
-        }
-        p{
-            text-align: center;
-            font-size: 1.25rem;
-        }
-        .div-valores-empresa{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            div{
-                height: 19rem;
-                border: .125rem solid black;
-                border-bottom: none;
-                background-color: #BFDB38;
-                h2{
-                    padding: .625rem;
-                    color: black;
-                }
-            }
-        }
-    }
-}
-@media (max-width: 890px){
+@media (max-width: 584px){
     .seccion-2-sobrenosotros{
         text-align: center;
         background-color: #BFDB38;
@@ -199,7 +7,7 @@
         h2{
             text-align: center;
             text-decoration: underline;
-            padding: 1.25rem 0;
+            padding: .625rem 0;
         }
         p{
             font-size: 1.0625rem;
@@ -225,7 +33,7 @@
             flex-direction: row;
             justify-content: space-around;
             div{
-                height: 19rem;
+                height: 16.125rem;
                 border: .125rem solid black;
                 border-bottom: none;
                 background-color: #BFDB38;
@@ -237,7 +45,21 @@
         }
     }
 }
-@media (max-width: 844px){
+@media (max-width: 523px){
+    .seccion-2-sobrenosotros{
+        text-align: center;
+        background-color: #BFDB38;
+        color: black;
+        height: 20vh;
+        h2{
+            text-align: center;
+            text-decoration: underline;
+            padding: .625rem 0;
+        }
+        p{
+            font-size: 1.0625rem;
+        }
+    }
     .seccion-3-sobrenosotros{
         text-align: justify;
         background-color: #00425A;
@@ -258,12 +80,157 @@
             flex-direction: row;
             justify-content: space-around;
             div{
-                height: 17.5rem;
+                height: 14.5625rem;
                 border: .125rem solid black;
                 border-bottom: none;
                 background-color: #BFDB38;
                 h2{
+                    font-size: 1.25rem;
                     padding: .625rem;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 465px){
+    .seccion-2-sobrenosotros{
+        text-align: center;
+        background-color: #BFDB38;
+        color: black;
+        height: 20vh;
+        h2{
+            text-align: center;
+            text-decoration: underline;
+            padding: .3125rem 0;
+        }
+        p{
+            font-size: .9375rem;
+        }
+    }
+    .seccion-3-sobrenosotros{
+        text-align: justify;
+        background-color: #00425A;
+        color: #F0EFE7;
+        height: 55vh; 
+        border: .125rem solid black;
+        h2{
+            text-decoration: underline;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            font-size: .9375rem;
+        }
+        .div-valores-empresa{
+            margin-top: 1.25rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            div{
+                height: 16.0625rem;
+                border: .125rem solid black;
+                border-bottom: none;
+                background-color: #BFDB38;
+                h2{
+                    font-size: 1.25rem;
+                    padding: .625rem;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 400px){
+    .seccion-2-sobrenosotros{
+        text-align: center;
+        background-color: #BFDB38;
+        color: black;
+        height: 25vh;
+        h2{
+            text-align: center;
+            text-decoration: underline;
+            padding: 0 0;
+        }
+        p{
+            font-size: 1.0625rem;
+        }
+    }
+    .seccion-3-sobrenosotros{
+        text-align: justify;
+        background-color: #00425A;
+        color: #F0EFE7;
+        height: 55vh; 
+        border: .125rem solid black;
+        h2{
+            text-decoration: underline;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            font-size: 1.0625rem;
+        }
+        .div-valores-empresa{
+            margin-top: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            div{
+                height: 3.125rem;
+                border: .125rem solid black;
+                border-bottom: none;
+                background-color: #BFDB38;
+                h2{
+                    font-size: 1.25rem;
+                    padding: .625rem;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 302px){
+    .seccion-2-sobrenosotros{
+        text-align: center;
+        background-color: #BFDB38;
+        color: black;
+        height: 26vh;
+        h2{
+            text-align: center;
+            text-decoration: underline;
+            padding: 0 0;
+        }
+        p{
+            font-size: .875rem;
+        }
+    }
+    .seccion-3-sobrenosotros{
+        text-align: justify;
+        background-color: #00425A;
+        color: #F0EFE7;
+        height: 55vh; 
+        border: .125rem solid black;
+        h2{
+            text-decoration: underline;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            font-size: .875rem;
+        }
+        .div-valores-empresa{
+            margin-top: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            div{
+                height: 2.5rem;
+                border: .125rem solid black;
+                border-bottom: none;
+                background-color: #BFDB38;
+                h2{
+                    font-size: 1.25rem;
+                    padding: .3125rem;
                     color: black;
                 }
             }
