@@ -18,20 +18,22 @@
     color: #F0EFE7;
     height: 60vh; 
     border: .125rem solid black;
-    h2{
-        text-decoration: underline;
-        text-align: center;
+    div{
+        h2{
+            text-decoration: underline;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            font-size: 1.25rem;
+        }
     }
-    p{
-        text-align: center;
-        font-size: 1.25rem;
-    }
-    .div-valores-empresa{
+    .div-valores{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         div{
-            height: 40.68vh;
+            height: 24.4375rem;
             border: .125rem solid black;
             border-bottom: none;
             background-color: #BFDB38;
